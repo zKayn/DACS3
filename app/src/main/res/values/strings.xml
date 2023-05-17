@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DACS3</string>
+    <string name="tiennha">Tiền Nhà</string>
+    <string name="nhapvao">Nhập vào</string>
+    <string name="lich">Lịch</string>
+    <string name="baocao">Báo cáo</string>
+    <string name="khac">Khác</string>
+    <string name="chinhsua">Chỉnh sửa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    android:padding="30dp"
+    android:transitionName="transition_OTP_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Đăng kí \n tài khoản mới"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/signup_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/users"
+            android:drawableLeft="@drawable/user_name"
+            android:drawablePadding="8dp"
+            android:hint="Tên đăng nhập"
+            android:padding="8dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/users"
+            android:drawableLeft="@drawable/password_icon"
+            android:drawablePadding="8dp"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/black"
+            android:text="Đăng kí"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/login_RedirectText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/users"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Bạn đã có tài khoản ? \n Vui lòng đăng nhập tại đây !"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        />
+    </LinearLayout>
+
+</ScrollView>
